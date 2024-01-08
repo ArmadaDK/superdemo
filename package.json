@@ -9,7 +9,18 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "element-plus": "^2.3.7",
+    "flv.js": "^1.6.2",
+    "sass": "^1.66.1",
+    "three": "^0.154.0",
+    "three-css2drender": "^1.0.0",
+    "three-obj-mtl-loader": "^1.0.3",
+    "three-orbit-controls": "^82.1.0",
+    "vue": "^3.2.13",
+    "vue-markdown-editor": "^0.2.0",
+    "vue-pdf-embed": "^1.1.6",
+    "vue3-pdfjs": "^0.1.6",
+    "wfs": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -17,22 +28,7 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    "sass-loader": "^13.3.2"
   },
   "browserslist": [
     "> 1%",
